@@ -14,5 +14,5 @@ writeFile('temp.txt', 'Checkout my line 1')
     console.log(data);
 })
 .catch ((err) => {
-    console.error('Error:', err);
+    console.error('Error occurred:', err);
 })

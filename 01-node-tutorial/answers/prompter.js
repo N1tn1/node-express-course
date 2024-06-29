@@ -66,7 +66,7 @@ const server = http.createServer((req, res) => {
 });
 
 server.on("request", (req) => {  
-  console.log("event received: ", req.method, req.url);  
+  console.log("event is received: ", req.method, req.url);  
 });  
 
 server.listen(3000);

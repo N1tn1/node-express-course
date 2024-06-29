@@ -9,7 +9,7 @@ const writer = async() => {
     }
     catch(err)
     {
-        console.log("An error occurred:", err);
+        console.log("Error occurred:", err);
     }
 }
 

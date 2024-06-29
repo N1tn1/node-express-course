@@ -7,11 +7,11 @@ stream.on('data', (chunk) => {
     console.log(chunk);
 });
 stream.on('end', () => {
-    console.log('\nTotal number of chunks received:', counter);
+    console.log('\n Total number of chunks received:', counter);
     console.log('Stream reading complete.');
 });
 stream.on('error', (err) => 
 {
-    console.log('Error occurred:');
+    console.log('Error occurred in reading:');
     console.log(err)
 });

@@ -7,7 +7,7 @@
     "dev": "nodemon prompter.js",  
     "start": "node prompter.js"
   },
-  "author": "Selam",
+  "author": "Selams",
   "license": "ISC",
   "description": "",
   "devDependencies": {
